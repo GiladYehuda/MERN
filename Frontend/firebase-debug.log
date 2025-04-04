@@ -1,0 +1,103 @@
+[debug] [2025-04-03T09:04:57.372Z] ----------------------------------------------------------------------
+[debug] [2025-04-03T09:04:57.376Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gilad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-03T09:04:57.376Z] CLI Version:   14.1.0
+[debug] [2025-04-03T09:04:57.377Z] Platform:      win32
+[debug] [2025-04-03T09:04:57.377Z] Node Version:  v22.14.0
+[debug] [2025-04-03T09:04:57.377Z] Time:          Thu Apr 03 2025 12:04:57 GMT+0300 (שעון ישראל (קיץ))
+[debug] [2025-04-03T09:04:57.377Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-03T09:04:57.385Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-03T09:04:57.386Z] > authorizing via signed-in user (giladyeuda1390@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gilad\react\MaximilianCourse\Mern\Frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-03T09:05:09.819Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:09.819Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:09.821Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2025-04-03T09:05:10.434Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2025-04-03T09:05:10.434Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2025-04-03T09:05:16.408Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:16.409Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:16.409Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/mern-prod12345:addFirebase [none]
+[debug] [2025-04-03T09:05:16.963Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/mern-prod12345:addFirebase 403
+[debug] [2025-04-03T09:05:16.964Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/mern-prod12345:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-03T09:05:16.966Z] Request to https://firebase.googleapis.com/v1beta1/projects/mern-prod12345:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-03T09:05:17.272Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/mern-prod12345:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\gilad\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\gilad\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2025-04-03T09:05:31.576Z] ----------------------------------------------------------------------
+[debug] [2025-04-03T09:05:31.579Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gilad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-03T09:05:31.580Z] CLI Version:   14.1.0
+[debug] [2025-04-03T09:05:31.580Z] Platform:      win32
+[debug] [2025-04-03T09:05:31.580Z] Node Version:  v22.14.0
+[debug] [2025-04-03T09:05:31.581Z] Time:          Thu Apr 03 2025 12:05:31 GMT+0300 (שעון ישראל (קיץ))
+[debug] [2025-04-03T09:05:31.581Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-03T09:05:31.589Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-03T09:05:31.590Z] > authorizing via signed-in user (giladyeuda1390@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gilad\react\MaximilianCourse\Mern\Frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-04-03T09:05:44.704Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:44.704Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:44.706Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-04-03T09:05:44.706Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mernnn","name":"mernnn"}
+[debug] [2025-04-03T09:05:46.161Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-04-03T09:05:46.161Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.5155314888074039344"}
+[debug] [2025-04-03T09:05:46.163Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:46.163Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:46.164Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5155314888074039344 [none]
+[debug] [2025-04-03T09:05:47.100Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5155314888074039344 200
+[debug] [2025-04-03T09:05:47.100Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5155314888074039344 {"name":"operations/create_project.global.5155314888074039344"}
+[debug] [2025-04-03T09:05:47.609Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-04-03T09:05:47.610Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:47.610Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:47.610Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5155314888074039344 [none]
+[debug] [2025-04-03T09:05:47.946Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5155314888074039344 200
+[debug] [2025-04-03T09:05:47.946Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.5155314888074039344 {"name":"operations/create_project.global.5155314888074039344","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"157341627248","projectId":"mernnn","lifecycleState":"ACTIVE","name":"mernnn","createTime":"2025-04-03T09:05:47.047680Z"}}
+[debug] [2025-04-03T09:05:47.951Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:47.952Z] Checked if tokens are valid: true, expires at: 1743674215210
+[debug] [2025-04-03T09:05:47.952Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/mernnn:addFirebase [none]
+[debug] [2025-04-03T09:05:49.228Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/mernnn:addFirebase 403
+[debug] [2025-04-03T09:05:49.228Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/mernnn:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-03T09:05:49.230Z] Request to https://firebase.googleapis.com/v1beta1/projects/mernnn:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-03T09:05:49.521Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/mernnn:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\gilad\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\gilad\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
